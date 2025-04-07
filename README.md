@@ -23,3 +23,23 @@
 1. **Clone o repositório**:
    ```bash
    git clone https://github.com/yurijarcem/Projeto-Agenda.git
+
+2. **Configuração do Banco de Dados**:
+
+ - Importe o banco de dados do arquivo agenda.sql para o MySQL:
+   ```bash
+   CREATE DATABASE agenda;
+   USE agenda;
+   SOURCE agenda.sql;
+
+3. **Configuração do Backend**:
+
+ - Altere as credenciais de banco de dados no arquivo config.php (localizado na raiz do projeto) para corresponder ao seu ambiente.
+
+4. **Rodando o servidor**:
+
+- Inicie o servidor PHP:
+   ```bash
+   php -S localhost:8000
+
+5. **Acesse o aplicativo no navegador em http://localhost:8000.**
